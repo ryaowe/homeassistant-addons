@@ -6,7 +6,7 @@ ARG VERSION=0.2.13
 RUN apk add --no-cache nodejs npm make g++ sqlite
 
 # add source and unpack
-ADD "https://github.com/matijse/eufy-ha-mqtt-bridge/archive/${VERSION}.tar.gz" /src.tar.gz
+ADD "https://github.com/ryaowe/eufy-ha-mqtt-bridge/releases/download/t8201/eufy-ha-mqtt-bridge.tar.gz" /src.tar.gz
 RUN mkdir /app && tar xvfz /src.tar.gz -C /app --strip-components=1
 
 # install all (and json2yaml for cofiguration parsing)

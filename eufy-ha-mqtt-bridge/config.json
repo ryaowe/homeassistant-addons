@@ -42,7 +42,7 @@
     "eval": "str?"
   },
   "stage": "experimental",
-  "url": "https://github.com/matijse/eufy-ha-mqtt-bridge/",
+  "url": "https://github.com/ryaowe/eufy-ha-mqtt-bridge/",
   "map": [
     "share:rw"
   ],
